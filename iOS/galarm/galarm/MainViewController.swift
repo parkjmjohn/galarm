@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,17 +17,24 @@ class MainViewController: UIViewController {
         timeLabel()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+      return true
+    }
+    
     func timeLabel() {
         let cal = Calendar.current
         let comps: Set<Calendar.Component> = [
             .year, .month, .day, .hour, .minute
         ]
         let dateTimeComponents = cal.dateComponents(comps, from: Date())
-        let timeLabel = UILabel(frame: CGRect(x: 0.0, y: 0.0, width: 100, height: 200))
-        timeLabel.center.x = self.view.center.x
-        timeLabel.center.y = self.view.center.y
+        let timeLabel = UILabel(frame: CGRect(x: 0.0, y: view.frame.height * 0.1 , width: view.frame.width, height: curClock * labelFontOffset ))
         timeLabel.text = String(dateTimeComponents.hour!) + ":" + String(dateTimeComponents.minute!)
-        timeLabel.font = UIFont(name: "San Francisco", size: 20.0)
+        timeLabel.textAlignment = .center
+        timeLabel.font = .clockDisplay
         view.addSubview(timeLabel)
     }
 
