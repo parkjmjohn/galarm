@@ -1,0 +1,6 @@
+framework module Pods_galarm_galarmUITests {
+  umbrella header "Pods-galarm-galarmUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
