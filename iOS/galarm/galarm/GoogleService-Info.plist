@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>690535409757-1c54o4i4016ch77rsh79nc198d6mdl1k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.690535409757-1c54o4i4016ch77rsh79nc198d6mdl1k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBth5zOV9tKVfLA-OxMPIvXJWukD0oa0UY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>690535409757</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jpap.galarm</string>
+	<key>PROJECT_ID</key>
+	<string>galarm-45ed2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>galarm-45ed2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:690535409757:ios:ac4337c21e64221a9245b4</string>
+	<key>DATABASE_URL</key>
+	<string>https://galarm-45ed2.firebaseio.com</string>
+</dict>
+</plist>

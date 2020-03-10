@@ -21,6 +21,10 @@ class ProfileViewController: UIViewController {
         addButtons()
     }
     
+    override var prefersStatusBarHidden: Bool {
+      return true
+    }
+    
     func addButtons(){
         let backButton = UIButton(frame: CGRect(x: frameWidth * 0.1, y: frameHeight * 0.875, width: frameWidth * 0.175, height: frameWidth * 0.175))
         backButton.backgroundColor = .buttonColor
@@ -32,7 +36,7 @@ class ProfileViewController: UIViewController {
         view.addSubview(backButton)
         
         let settingsButton = UIButton(frame: CGRect(x: frameWidth * 0.725, y: frameHeight * 0.875, width: frameWidth * 0.175, height: frameWidth * 0.175))
-        settingsButton.backgroundColor = .buttonColor
+        settingsButton.backgroundColor = .settingsButtonColor
         settingsButton.layer.masksToBounds = true
         settingsButton.layer.cornerRadius = settingsButton.frame.width / 2.0
         settingsButton.setTitle("setting", for: .normal)
@@ -46,6 +50,14 @@ class ProfileViewController: UIViewController {
     }
     
     @objc func settingsButtonPressed() {
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        transition.type = CATransitionType.moveIn
+        transition.subtype = CATransitionSubtype.fromTop
+        navigationController?.view.layer.add(transition, forKey: nil)
+        navigationController?.pushViewController(SettingsViewController(), animated: false)
+
     }
 
 }

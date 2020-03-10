@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D167D9F2416C84400CE6597 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */; };
 		0D35E0D7240B082300408CCA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D35E0D6240B082300408CCA /* MainViewController.swift */; };
 		0D7D3F85240B073A00D2C019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3F84240B073A00D2C019 /* AppDelegate.swift */; };
 		0D7D3F87240B073A00D2C019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3F86240B073A00D2C019 /* SceneDelegate.swift */; };
@@ -15,12 +16,14 @@
 		0D7D3F91240B073B00D2C019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7D3F8F240B073B00D2C019 /* LaunchScreen.storyboard */; };
 		0D7D3F9C240B073C00D2C019 /* galarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3F9B240B073C00D2C019 /* galarmTests.swift */; };
 		0D7D3FA7240B073C00D2C019 /* galarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3FA6240B073C00D2C019 /* galarmUITests.swift */; };
-		0D7D3FB5240B075500D2C019 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D7D3FB4240B075500D2C019 /* GoogleService-Info.plist */; };
 		0D83AF06240C2E89008CE820 /* padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83AF05240C2E89008CE820 /* padding.swift */; };
 		0D83AF08240C335D008CE820 /* font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83AF07240C335D008CE820 /* font.swift */; };
 		0DA147952412E61E0069BD57 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA147942412E61E0069BD57 /* color.swift */; };
 		0DA147972414BD040069BD57 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA147962414BD040069BD57 /* AddAlarmViewController.swift */; };
 		0DA147992414BFAF0069BD57 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA147982414BFAF0069BD57 /* ProfileViewController.swift */; };
+		0DA1479D2414D0690069BD57 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA1479C2414D0690069BD57 /* ExternalAccessory.framework */; };
+		0DA1479F2414D0750069BD57 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA1479E2414D0750069BD57 /* AudioToolbox.framework */; };
+		0DA147A12416A9330069BD57 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA147A02416A9330069BD57 /* SettingsViewController.swift */; };
 		8763EB2A0381134F95B28D53 /* Pods_galarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE65C2CE9232BCCD260A06 /* Pods_galarm.framework */; };
 		A0FED08B65F502DC4C532ACA /* Pods_galarm_galarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E872738F3505922FB93AC3B2 /* Pods_galarm_galarmUITests.framework */; };
 		FFE51AEE82B9162CB96A576A /* Pods_galarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6224A3630F2A7B5DB48D5FF1 /* Pods_galarmTests.framework */; };
@@ -45,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		05DE65C2CE9232BCCD260A06 /* Pods_galarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D35E0D6240B082300408CCA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0D7D3F81240B073A00D2C019 /* galarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7D3F84240B073A00D2C019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,13 +63,17 @@
 		0D7D3FA2240B073C00D2C019 /* galarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = galarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7D3FA6240B073C00D2C019 /* galarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galarmUITests.swift; sourceTree = "<group>"; };
 		0D7D3FA8240B073C00D2C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D7D3FB4240B075500D2C019 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D83AF03240C2BE7008CE820 /* debugTools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = debugTools.md; sourceTree = "<group>"; };
 		0D83AF05240C2E89008CE820 /* padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = padding.swift; sourceTree = "<group>"; };
 		0D83AF07240C335D008CE820 /* font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = font.swift; sourceTree = "<group>"; };
 		0DA147942412E61E0069BD57 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 		0DA147962414BD040069BD57 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
 		0DA147982414BFAF0069BD57 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0DA1479A2414CEE20069BD57 /* galarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = galarm.entitlements; sourceTree = "<group>"; };
+		0DA1479B2414D0500069BD57 /* galarmRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = galarmRelease.entitlements; sourceTree = "<group>"; };
+		0DA1479C2414D0690069BD57 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		0DA1479E2414D0750069BD57 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0DA147A02416A9330069BD57 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6224A3630F2A7B5DB48D5FF1 /* Pods_galarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		667B9E8DDDDF969F748C9C8C /* Pods-galarm-galarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galarm-galarmUITests.release.xcconfig"; path = "Target Support Files/Pods-galarm-galarmUITests/Pods-galarm-galarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7E2430FD2D446E3FC4AA6DC7 /* Pods-galarm-galarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-galarm-galarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-galarm-galarmUITests/Pods-galarm-galarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA1479D2414D0690069BD57 /* ExternalAccessory.framework in Frameworks */,
 				8763EB2A0381134F95B28D53 /* Pods_galarm.framework in Frameworks */,
+				0DA1479F2414D0750069BD57 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,14 +139,17 @@
 		0D7D3F83240B073A00D2C019 /* galarm */ = {
 			isa = PBXGroup;
 			children = (
+				0DA1479B2414D0500069BD57 /* galarmRelease.entitlements */,
+				0DA1479A2414CEE20069BD57 /* galarm.entitlements */,
 				0D83AF04240C2E72008CE820 /* constants */,
-				0D7D3FB4240B075500D2C019 /* GoogleService-Info.plist */,
 				0D7D3F84240B073A00D2C019 /* AppDelegate.swift */,
 				0D7D3F86240B073A00D2C019 /* SceneDelegate.swift */,
 				0D7D3F8A240B073B00D2C019 /* Assets.xcassets */,
 				0D35E0D6240B082300408CCA /* MainViewController.swift */,
+				0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */,
 				0DA147962414BD040069BD57 /* AddAlarmViewController.swift */,
 				0DA147982414BFAF0069BD57 /* ProfileViewController.swift */,
+				0DA147A02416A9330069BD57 /* SettingsViewController.swift */,
 				0D83AF03240C2BE7008CE820 /* debugTools.md */,
 				0D7D3F8F240B073B00D2C019 /* LaunchScreen.storyboard */,
 				0D7D3F92240B073B00D2C019 /* Info.plist */,
@@ -197,6 +210,8 @@
 		B445CA4A4B9654AD98DB7A0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DA1479E2414D0750069BD57 /* AudioToolbox.framework */,
+				0DA1479C2414D0690069BD57 /* ExternalAccessory.framework */,
 				05DE65C2CE9232BCCD260A06 /* Pods_galarm.framework */,
 				E872738F3505922FB93AC3B2 /* Pods_galarm_galarmUITests.framework */,
 				6224A3630F2A7B5DB48D5FF1 /* Pods_galarmTests.framework */,
@@ -314,7 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7D3F91240B073B00D2C019 /* LaunchScreen.storyboard in Resources */,
-				0D7D3FB5240B075500D2C019 /* GoogleService-Info.plist in Resources */,
+				0D167D9F2416C84400CE6597 /* GoogleService-Info.plist in Resources */,
 				0D7D3F8E240B073B00D2C019 /* Preview Assets.xcassets in Resources */,
 				0D7D3F8B240B073B00D2C019 /* Assets.xcassets in Resources */,
 			);
@@ -452,6 +467,7 @@
 				0D83AF06240C2E89008CE820 /* padding.swift in Sources */,
 				0DA147992414BFAF0069BD57 /* ProfileViewController.swift in Sources */,
 				0D83AF08240C335D008CE820 /* font.swift in Sources */,
+				0DA147A12416A9330069BD57 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +633,7 @@
 			baseConfigurationReference = 9E208538CF9519E4AD9481AE /* Pods-galarm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = galarm/galarm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"galarm/Preview Content\"";
 				DEVELOPMENT_TEAM = NUJ96ZX9LL;
@@ -638,6 +655,7 @@
 			baseConfigurationReference = B2229FD27C8E9F02CEC3F63E /* Pods-galarm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = galarm/galarmRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"galarm/Preview Content\"";
 				DEVELOPMENT_TEAM = NUJ96ZX9LL;

@@ -56,7 +56,7 @@ class MainViewController: UIViewController {
         view.addSubview(alarmButton)
         
         let profileButton = UIButton(frame: CGRect(x: frameWidth * 0.725, y: frameHeight * 0.875, width: frameWidth * 0.175, height: frameWidth * 0.175))
-        profileButton.backgroundColor = .buttonColor
+        profileButton.backgroundColor = .profileButtonColor
         profileButton.layer.masksToBounds = true
         profileButton.layer.cornerRadius = profileButton.frame.width / 2.0
         profileButton.setTitle("profile", for: .normal)
