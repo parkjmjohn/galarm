@@ -8,6 +8,8 @@ target 'galarm' do
   # Pods for galarm
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
 
   target 'galarmTests' do
     inherit! :search_paths

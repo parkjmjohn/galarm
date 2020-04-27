@@ -9,5 +9,4 @@
 import UIKit
 
 let labelFontOffset: CGFloat = 1.05
-
 let curClock: CGFloat = 80.0

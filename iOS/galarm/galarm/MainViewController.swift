@@ -8,9 +8,13 @@
 
 import UIKit
 
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
 class MainViewController: UIViewController {
 
+    var db: Firestore!
+    
     var frameWidth: CGFloat!
     var frameHeight: CGFloat!
     
@@ -22,7 +26,7 @@ class MainViewController: UIViewController {
         addTimeLabel()
         addButtons()
     }
-    
+        
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }

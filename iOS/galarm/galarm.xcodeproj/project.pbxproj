@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D167D9F2416C84400CE6597 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */; };
 		0D35E0D7240B082300408CCA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D35E0D6240B082300408CCA /* MainViewController.swift */; };
+		0D62BF102456583500E2CEE0 /* CustomItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62BF0F2456583500E2CEE0 /* CustomItemView.swift */; };
 		0D7D3F85240B073A00D2C019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3F84240B073A00D2C019 /* AppDelegate.swift */; };
 		0D7D3F87240B073A00D2C019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D3F86240B073A00D2C019 /* SceneDelegate.swift */; };
 		0D7D3F8B240B073B00D2C019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7D3F8A240B073B00D2C019 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		05DE65C2CE9232BCCD260A06 /* Pods_galarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_galarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D35E0D6240B082300408CCA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D62BF0F2456583500E2CEE0 /* CustomItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItemView.swift; sourceTree = "<group>"; };
 		0D7D3F81240B073A00D2C019 /* galarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7D3F84240B073A00D2C019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D7D3F86240B073A00D2C019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				0D35E0D6240B082300408CCA /* MainViewController.swift */,
 				0D167D9E2416C84400CE6597 /* GoogleService-Info.plist */,
 				0DA147962414BD040069BD57 /* AddAlarmViewController.swift */,
+				0D62BF0F2456583500E2CEE0 /* CustomItemView.swift */,
 				0DA147982414BFAF0069BD57 /* ProfileViewController.swift */,
 				0DA147A02416A9330069BD57 /* SettingsViewController.swift */,
 				0D83AF03240C2BE7008CE820 /* debugTools.md */,
@@ -467,6 +470,7 @@
 				0D83AF06240C2E89008CE820 /* padding.swift in Sources */,
 				0DA147992414BFAF0069BD57 /* ProfileViewController.swift in Sources */,
 				0D83AF08240C335D008CE820 /* font.swift in Sources */,
+				0D62BF102456583500E2CEE0 /* CustomItemView.swift in Sources */,
 				0DA147A12416A9330069BD57 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

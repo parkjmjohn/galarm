@@ -19,10 +19,22 @@ class AddAlarmViewController: UIViewController {
         frameWidth = view.frame.width
         frameHeight = view.frame.height
         addButtons()
+        addTextField()
     }
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    func addTextField() {
+        let alarmTextField = UITextField(frame: CGRect(x: 0.0, y: frameHeight * 0.15, width: frameWidth * 0.8, height: curClock * 1.1))
+        alarmTextField.center.x = view.center.x
+        alarmTextField.text = "00:00"
+        alarmTextField.textAlignment = .center
+        alarmTextField.font = .clockDisplay
+//        alarmTextField.addTarget(self, action: , for: .touchUpInside)
+        alarmTextField.keyboardType = UIKeyboardType.numberPad
+        view.addSubview(alarmTextField)
     }
     
     func addButtons() {
@@ -56,5 +68,26 @@ class AddAlarmViewController: UIViewController {
         navigationController?.view.layer.add(transition, forKey: nil)
         navigationController?.popViewController(animated: true)
     }
+    
+    @objc func addButtonPressed() {
+        let date = Date().addingTimeInterval(10)
+        let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(runCode), userInfo: nil, repeats: false)
+        RunLoop.main.add(timer, forMode: .common)
+        
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        transition.type = CATransitionType.moveIn
+        transition.subtype = CATransitionSubtype.fromBottom
+        navigationController?.view.layer.add(transition, forKey: nil)
+        navigationController?.popViewController(animated: true)
+    }
+    
+    @objc func runCode() {
+        print("\n")
+        print("yesssirski")
+        print("\n")
+    }
 
+    
 }
